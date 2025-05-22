@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二維陣列</title>
+</head>
+<body>
+    <h2>二維陣列><</h2>
+    <script>
+        let n=['姓名','王大同','林麥可','張淑芬']
+        let c=['國文','85','99','75']
+        let e=['英文','88','86','92']
+        let m=['數學','77','89','86']
+
+        document.write('<table border="1">')
+        for(let i= 0;i<n.length;i++)
+        {
+            document.write('<tr><td>'+n[i]+"</td>")
+            document.write('<td>'+c[i]+"</td>")
+            document.write('<td>'+e[i]+"</td>")
+            document.write('<td>'+m[i]+"</td></tr>")
+        }
+        document.write('</table>')
+    </script>
+</body>
+</html>
